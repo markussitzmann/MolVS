@@ -16,7 +16,7 @@ quality, help with de-duplication and identify relationships between molecules.
 
 setup(
     name='MolVS',
-    version='0.0.9',
+    version='0.1.1',
     author='Matt Swain',
     author_email='m.swain@me.com',
     license='MIT',
@@ -26,7 +26,6 @@ setup(
     long_description=long_description,
     keywords='chemistry cheminformatics rdkit',
     zip_safe=False,
-    setup_requires=['pytest-runner'],
     tests_require=['pytest'],
     install_requires=['six'],
     entry_points={'console_scripts': ['molvs = molvs.cli:main']},
@@ -39,6 +38,10 @@ setup(
         'Operating System :: OS Independent',
         'Programming Language :: Python :: 2',
         'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
+        'Programming Language :: Python :: 3.4',
+        'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
         'Topic :: Scientific/Engineering',
         'Topic :: Scientific/Engineering :: Bio-Informatics',
         'Topic :: Scientific/Engineering :: Chemistry',
